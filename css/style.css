@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Colors Used: #08D9D6  -  #252A34  -  #FF2E63  -  #EAEAEA */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Style */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5; /*ارتفاع السطر*/
+  background-color: #eaeaea;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.primary-text {
+  color: #ff2e63;
+}
+a {
+  text-decoration: none;
+}
+.pargraph {
+  padding: 1rem 2rem;
+  /* padding-bottom: 2rem; */
+}
+
+/* header and navbar */
+.header {
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.bg-dark {
+  color: #eaeaea;
+  background-color: #252a34;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+#navbar .logo img {
+  width: 80px;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar ul li a {
+  color: #fff;
+  /* text-decoration: none; */
+  padding: 1rem;
+}
+#navbar ul li a:hover {
+  background-color: #08d9d6;
+  border-radius: 9px;
+  transition: 0.9s;
+}
+/* ======  header finish======= */
+
+/* section home  */
+.text-center {
+  text-align: center;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.btn {
+  color: #fff;
+  font: 16px;
+  border-radius: 10px;
+  padding: 10px 16px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+.btn:hover {
+  background-color: #08d9d6;
+  transition: 0.9s;
+  border: #08d9d6;
+}
+
+
+#showcase {
+  background:/* #252A34 */ url(../img/anastase-maragos-HyvE5SiKMUs-unsplash.jpg) no-repeat center
+    center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1.5rem;
+  /* overlay */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* section about us */
+
+/* Utility Classes */
+
+.bg-light {
+  background-color: #eaeaea;
+  color: #252a34;
+}
+
+/* Section: About */
+.m-heading {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+#about .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about-content div,
+#about .about-content img {
+  flex: 1;
+}
+
+.box-shadow {
+  box-shadow: 0 0 2px #252a34; /*عمل اطار على الصورة*/
+}
+#about .about-content img {
+  /* display: block; */
+  width: 50%;
+  border: 5px solid #fff;
+  margin-left: 1rem;
+}
+
+/* cta */
+#cta {
+  background: #252a34 url(../img/cta.jpg) no-repeat center center/cover;
+  color: #fff;
+  margin: 0 3rem;
+}
+
+#cta .cta-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 350px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6);
+  
+}
+
+
+.l-heading {
+  font-size: 3rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* section programs page */
+#programs {
+  color: #252a34;
+}
+
+
+
+  
+#programs .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  flex: 1;
+  padding: 4rem;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  transition: 0.9s;
+}
+
+.box:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 106, 255, 04); /*التحكم في الضباب */
+}
+#programs .boxes .box img {
+  width: 70px;
+  padding: ;
+  background-color: #08d9d6;
+  border-radius: 100%;
+}
+
+.programs2 {
+  color: #252a34;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  top: 75px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.gym-img {
+  flex-basis: 31%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+  padding: 20px;
+}
+.gym-img img {
+  flex-basis: 31%;
+  border-radius: 20px;
+  position: relative;
+  padding-bottom: 0;
+}
+img {
+  width: 100%;
+}
+
+
+
+footer {
+  background-color: #252A34;
+  padding: 20px;
+  margin:20px 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.social-media {
+  /* list-style: none; */
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.social-media li {
+  display: inline-block;  /*يجع العناصر بشكل افقي */
+  margin: 0 5px;
+}
+
+.social-media a {
+  color:#f2f2f2 ;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.social-media .twitter:hover {
+color: #08d9d6;
+      transition: 0.9s;
+      
+      box-shadow: 0 0 2px #08d9d6; 
+
+    }
+    
+    .social-media .instagram:hover {
+      
+      transition: 0.9s;
+      box-shadow: 0 0 2px #ffbf00; 
+
+    }
+    
+    .social-media .facebook:hover {
+     
+      transition: 0.9s;
+      box-shadow: 0 0 2px #3b5998; 
+
+    }
+
+
+

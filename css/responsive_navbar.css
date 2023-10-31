@@ -1,0 +1,61 @@
+/* Section: Navbar */
+ #navbar {
+    flex-direction: column;
+    /* align-items: center; */
+    padding-bottom: 1.5rem;
+
+  }
+  
+  #navbar .logo {
+    margin-bottom: 1rem;
+  
+  }
+/* Utility Classes */
+
+
+
+/* About */
+#about .about-content {
+  display: block;   
+  text-align: center;
+}
+
+#about .about-content img {
+  width: 100%;
+  margin: 1rem 0 0 0;
+}
+
+/* programs page */
+
+#programs .boxes {
+  display: block;
+}
+
+
+/* services page */
+
+table {
+  font-size: 12px;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.services table {
+  font-size: 12px;
+}
+
+
+
+/* conact page */
+.main {
+  padding: 20px;
+}
+
+
+
+
+   
+  
+  
